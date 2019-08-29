@@ -1,0 +1,45 @@
+html, body, .page {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+  border: 1px solid white;
+  background-image: url("images/p1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#nav-row ul li{
+  font-size: 2.5vh;
+  font-weight: 100;
+  list-style: none;
+}
+#nav-row ul li a {
+  text-decoration: none;
+  color: white;
+}
+.tab {
+  text-align: center;
+}
+#name-row {
+  color: white;
+  /* border: 1px solid pink; */
+}
+#landing-title {
+  position: absolute;
+  top: 35%;
+  margin: 0;
+}
+#name {
+  font-size: 7.5vh;
+  font-weight: 100;
+}
+hr {
+  border: 0;
+  height: 0;
+  width: 50%;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
