@@ -5,49 +5,11 @@ html, body, .page {
 }
 body {
   font-family: Roboto;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-image: url("https://source.unsplash.com/Gg7uKdHFb_c");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-#nav-row ul li{
-  font-size: 2.5vh;
-  font-weight: 100;
-  list-style: none;
-}
-#nav-row ul li a {
-  text-decoration: none;
-  color: white;
-}
-.tab {
-  text-align: center;
-}
-#name-row {
-  color: white;
-  /* border: 1px solid pink; */
-}
-#landing-title {
-  position: absolute;
-  top: 37.5%;
-  margin: 0;
-}
-#name {
-  font-size: 7.5vh;
-  font-weight: 100;
-}
-hr {
-  border: 0;
-  height: 0;
-  width: 50%;
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
-}
-#socials i{
-  /* border: 1px solid red; */
-  color: white;
-  font-size: 2vh;
-  padding: 0 2vh;
 }
 
 scroll-button {
@@ -154,4 +116,51 @@ scroll-button::after {
   100% {
     opacity: 0;
   }
+}
+
+#nav-row ul li{
+  font-size: 2.5vh;
+  font-weight: 100;
+  list-style: none;
+}
+#nav-row ul li a {
+  text-decoration: none;
+  color: white;
+}
+.tab {
+  text-align: center;
+}
+#name-row {
+  color: white;
+  /* border: 1px solid pink; */
+}
+#landing-title {
+  position: absolute;
+  top: 37.5%;
+  margin: 0;
+}
+#name {
+  font-size: 6.25vh;
+  /* font-size: 5vw; */
+  font-weight: 100;
+}
+hr {
+  border: 0;
+  height: 0;
+  width: 30%;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+#socials i{
+  /* border: 1px solid red; */
+  color: white;
+  font-size: 2vh;
+  padding: 0 2vh;
+}
+
+#about-me {
+  border: 1px solid white;
+  background: white;
+  width: 75vw;
+  margin: 0 0 0 25vw;
 }
